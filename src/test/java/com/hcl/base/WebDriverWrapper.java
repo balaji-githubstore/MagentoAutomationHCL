@@ -19,9 +19,7 @@ public class WebDriverWrapper {
 
 	@BeforeMethod
 	@Parameters({ "browser" })
-	public void setup(@Optional("ch") String browserName) throws IOException {
-
-		
+	public void setup(@Optional("ch") String browserName) throws IOException {		
 		if (browserName.equalsIgnoreCase("ff") || browserName.equalsIgnoreCase("firefox")) {
 			System.setProperty("webdriver.gecko.driver", "driver/geckodriver.exe");
 			driver = new FirefoxDriver();
