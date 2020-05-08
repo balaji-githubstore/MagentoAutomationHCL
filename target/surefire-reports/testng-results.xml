@@ -2,12 +2,35 @@
 <testng-results skipped="0" failed="0" ignored="1" total="4" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="71812" started-at="2020-05-07T16:48:03 IST" finished-at="2020-05-07T16:49:15 IST">
+  <suite name="Magento Suite" duration-ms="86980" started-at="2020-05-08T11:12:45 IST" finished-at="2020-05-08T11:14:12 IST">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="71812" started-at="2020-05-07T16:48:03 IST" finished-at="2020-05-07T16:49:15 IST">
+    <test name="LoginTest" duration-ms="44299" started-at="2020-05-08T11:12:45 IST" finished-at="2020-05-08T11:13:30 IST">
+      <class name="com.hcl.magentotest.LoginTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.hcl.magentotest.LoginTest@6fd02e5]" name="setup" is-config="true" duration-ms="23858" started-at="2020-05-08T11:12:45 IST" finished-at="2020-05-08T11:13:09 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ff]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validCredentialTest()[pri:1, instance:com.hcl.magentotest.LoginTest@6fd02e5]" name="validCredentialTest" duration-ms="11487" started-at="2020-05-08T11:13:09 IST" finished-at="2020-05-08T11:13:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validCredentialTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hcl.magentotest.LoginTest@6fd02e5]" name="tearDown" is-config="true" duration-ms="8898" started-at="2020-05-08T11:13:21 IST" finished-at="2020-05-08T11:13:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.hcl.magentotest.LoginTest -->
+    </test> <!-- LoginTest -->
+    <test name="RegisterTest" duration-ms="42655" started-at="2020-05-08T11:13:30 IST" finished-at="2020-05-08T11:14:12 IST">
       <class name="com.hcl.magentotest.RegisterTest">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.hcl.magentotest.RegisterTest@271053e1]" name="setup" is-config="true" duration-ms="11559" started-at="2020-05-07T16:48:34 IST" finished-at="2020-05-07T16:48:45 IST">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.hcl.magentotest.RegisterTest@55d56113]" name="setup" is-config="true" duration-ms="10445" started-at="2020-05-08T11:13:31 IST" finished-at="2020-05-08T11:13:41 IST">
           <params>
             <param index="0">
               <value>
@@ -18,7 +41,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="registrationTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.hcl.magentotest.RegisterTest@271053e1]" name="registrationTest" duration-ms="5921" started-at="2020-05-07T16:48:45 IST" data-provider="registrationData" finished-at="2020-05-07T16:48:51 IST">
+        <test-method status="PASS" signature="registrationTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.hcl.magentotest.RegisterTest@55d56113]" name="registrationTest" duration-ms="10487" started-at="2020-05-08T11:13:41 IST" data-provider="registrationData" finished-at="2020-05-08T11:13:52 IST">
           <params>
             <param index="0">
               <value>
@@ -44,11 +67,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registrationTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hcl.magentotest.RegisterTest@271053e1]" name="tearDown" is-config="true" duration-ms="1175" started-at="2020-05-07T16:48:51 IST" finished-at="2020-05-07T16:48:52 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hcl.magentotest.RegisterTest@55d56113]" name="tearDown" is-config="true" duration-ms="808" started-at="2020-05-08T11:13:52 IST" finished-at="2020-05-08T11:13:52 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.hcl.magentotest.RegisterTest@271053e1]" name="setup" is-config="true" duration-ms="9428" started-at="2020-05-07T16:48:52 IST" finished-at="2020-05-07T16:49:02 IST">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.hcl.magentotest.RegisterTest@55d56113]" name="setup" is-config="true" duration-ms="6004" started-at="2020-05-08T11:13:52 IST" finished-at="2020-05-08T11:13:58 IST">
           <params>
             <param index="0">
               <value>
@@ -59,7 +82,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="registrationTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.hcl.magentotest.RegisterTest@271053e1]" name="registrationTest" duration-ms="12627" started-at="2020-05-07T16:49:02 IST" data-provider="registrationData" finished-at="2020-05-07T16:49:14 IST">
+        <test-method status="PASS" signature="registrationTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.hcl.magentotest.RegisterTest@55d56113]" name="registrationTest" duration-ms="12827" started-at="2020-05-08T11:13:58 IST" data-provider="registrationData" finished-at="2020-05-08T11:14:11 IST">
           <params>
             <param index="0">
               <value>
@@ -85,32 +108,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registrationTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hcl.magentotest.RegisterTest@271053e1]" name="tearDown" is-config="true" duration-ms="759" started-at="2020-05-07T16:49:14 IST" finished-at="2020-05-07T16:49:15 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hcl.magentotest.RegisterTest@55d56113]" name="tearDown" is-config="true" duration-ms="1078" started-at="2020-05-08T11:14:11 IST" finished-at="2020-05-08T11:14:12 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.hcl.magentotest.RegisterTest -->
-      <class name="com.hcl.magentotest.LoginTest">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.hcl.magentotest.LoginTest@4f7d0008]" name="setup" is-config="true" duration-ms="11161" started-at="2020-05-07T16:48:03 IST" finished-at="2020-05-07T16:48:14 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ch]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="validCredentialTest()[pri:1, instance:com.hcl.magentotest.LoginTest@4f7d0008]" name="validCredentialTest" duration-ms="15957" started-at="2020-05-07T16:48:14 IST" finished-at="2020-05-07T16:48:30 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validCredentialTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hcl.magentotest.LoginTest@4f7d0008]" name="tearDown" is-config="true" duration-ms="1265" started-at="2020-05-07T16:48:30 IST" finished-at="2020-05-07T16:48:32 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.hcl.magentotest.LoginTest -->
-    </test> <!-- Command line test -->
-  </suite> <!-- Command line suite -->
+    </test> <!-- RegisterTest -->
+  </suite> <!-- Magento Suite -->
 </testng-results>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="36699" started-at="2020-05-07T15:52:22 IST" finished-at="2020-05-07T15:52:59 IST">
+  <suite name="Default suite" duration-ms="8581" started-at="2020-05-08T10:28:30 IST" finished-at="2020-05-08T10:28:39 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="36699" started-at="2020-05-07T15:52:22 IST" finished-at="2020-05-07T15:52:59 IST">
-      <class name="com.hcl.magentotest.RegisterTest">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.hcl.magentotest.RegisterTest@7f13d6e]" name="setup" is-config="true" duration-ms="7890" started-at="2020-05-07T15:52:23 IST" finished-at="2020-05-07T15:52:31 IST">
+    <test name="Default test" duration-ms="8581" started-at="2020-05-08T10:28:30 IST" finished-at="2020-05-08T10:28:39 IST">
+      <class name="com.hcl.magentotest.HomeTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.hcl.magentotest.HomeTest@76707e36]" name="setup" is-config="true" duration-ms="7593" started-at="2020-05-08T10:28:30 IST" finished-at="2020-05-08T10:28:38 IST">
           <params>
             <param index="0">
               <value>
@@ -18,78 +18,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="registrationTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.hcl.magentotest.RegisterTest@7f13d6e]" name="registrationTest" duration-ms="5545" started-at="2020-05-07T15:52:31 IST" data-provider="registrationData" finished-at="2020-05-07T15:52:36 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Balaji]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Dinakaran]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[bala@gmail.com]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Tech Partner]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="PASS" signature="totalLinkTest()[pri:0, instance:com.hcl.magentotest.HomeTest@76707e36]" name="totalLinkTest" duration-ms="179" started-at="2020-05-08T10:28:38 IST" finished-at="2020-05-08T10:28:38 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- registrationTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hcl.magentotest.RegisterTest@7f13d6e]" name="tearDown" is-config="true" duration-ms="873" started-at="2020-05-07T15:52:36 IST" finished-at="2020-05-07T15:52:37 IST">
+        </test-method> <!-- totalLinkTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hcl.magentotest.HomeTest@76707e36]" name="tearDown" is-config="true" duration-ms="752" started-at="2020-05-08T10:28:38 IST" finished-at="2020-05-08T10:28:39 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.hcl.magentotest.RegisterTest@7f13d6e]" name="setup" is-config="true" duration-ms="6772" started-at="2020-05-07T15:52:37 IST" finished-at="2020-05-07T15:52:44 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ch]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="registrationTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.hcl.magentotest.RegisterTest@7f13d6e]" name="registrationTest" duration-ms="13700" started-at="2020-05-07T15:52:44 IST" data-provider="registrationData" finished-at="2020-05-07T15:52:58 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Peter]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Paul]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[peter@outlook.com]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Is a merchant who sells online]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- registrationTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hcl.magentotest.RegisterTest@7f13d6e]" name="tearDown" is-config="true" duration-ms="867" started-at="2020-05-07T15:52:58 IST" finished-at="2020-05-07T15:52:59 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.hcl.magentotest.RegisterTest -->
+      </class> <!-- com.hcl.magentotest.HomeTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

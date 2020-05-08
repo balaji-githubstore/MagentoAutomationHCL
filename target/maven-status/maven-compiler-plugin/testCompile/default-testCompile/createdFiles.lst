@@ -1,6 +1,8 @@
+com\hcl\magentotest\HomeTest.class
 com\hcl\magentopages\RegisterPage.class
 com\hcl\magentopages\MainPage.class
 com\hcl\utilities\ExcelUtils.class
+com\hcl\utilities\PropUtils.class
 com\hcl\magentopages\LoginPage.class
 com\hcl\base\WebDriverWrapper.class
 com\hcl\magentopages\HomePage.class
